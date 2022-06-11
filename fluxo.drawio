@@ -1,0 +1,110 @@
+<mxfile host="65bd71144e">
+    <diagram id="bis9nkJWqnFWE7SRaJVF" name="Página-1">
+        <mxGraphModel dx="617" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-JjJm4a-PMxNxb4G7ymI-1" target="-JjJm4a-PMxNxb4G7ymI-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="528" y="179" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-1" value="Mensagem usuário" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="68" y="89" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-JjJm4a-PMxNxb4G7ymI-32" target="-JjJm4a-PMxNxb4G7ymI-21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="138" y="349" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-JjJm4a-PMxNxb4G7ymI-9" target="-JjJm4a-PMxNxb4G7ymI-32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;" parent="1" source="-JjJm4a-PMxNxb4G7ymI-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="219" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Busca no TinyDB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
+                    <mxGeometry x="0.1298" y="-4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-9" value="Retornar skills disponíveis para o usuário selecionar" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="58" y="189" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-JjJm4a-PMxNxb4G7ymI-28" target="-JjJm4a-PMxNxb4G7ymI-24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-JjJm4a-PMxNxb4G7ymI-21" target="-JjJm4a-PMxNxb4G7ymI-28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-21" value="Realiza busca por emprego no google search, filtrando pelas skills" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="58" y="379" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-24" value="Bot: mostra as vagas para o usuário" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="243" y="519" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;" parent="1" source="-JjJm4a-PMxNxb4G7ymI-28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="409" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-28" value="Scraping dos resultados do google. Retorna todos os links da primeira página do google" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="238" y="359" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-32" value="Capturar as skills escolhidas pelo usuário" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="58" y="279" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="-JjJm4a-PMxNxb4G7ymI-9" target="-JjJm4a-PMxNxb4G7ymI-32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="118" y="249" as="sourcePoint"/>
+                        <mxPoint x="118" y="379" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-35" value="Fluxo realtime" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="40" width="390" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-36" value="Scraping 1 - Skills" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="40" width="380" height="305" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="edgeStyle=none;html=1;" parent="-JjJm4a-PMxNxb4G7ymI-36" source="-JjJm4a-PMxNxb4G7ymI-38" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-38" value="Scraping das skills disponíveis no site&amp;nbsp;novoresume" style="rounded=1;whiteSpace=wrap;html=1;" parent="-JjJm4a-PMxNxb4G7ymI-36" vertex="1">
+                    <mxGeometry x="140" y="65" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Persistir skills no tinyDB" style="whiteSpace=wrap;html=1;rounded=1;" parent="-JjJm4a-PMxNxb4G7ymI-36" vertex="1">
+                    <mxGeometry x="140" y="154" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="-JjJm4a-PMxNxb4G7ymI-36" source="-JjJm4a-PMxNxb4G7ymI-38" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640" y="180" as="sourcePoint"/>
+                        <mxPoint x="640" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-37" value="Scraping 2 - Vagas" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="370" width="380" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-42" value="Abrir o site de busca do google" style="rounded=1;whiteSpace=wrap;html=1;" parent="-JjJm4a-PMxNxb4G7ymI-37" vertex="1">
+                    <mxGeometry x="130" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-JjJm4a-PMxNxb4G7ymI-37" source="-JjJm4a-PMxNxb4G7ymI-43" target="-JjJm4a-PMxNxb4G7ymI-45" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-43" value="Pesquisar vagas utilizando os filtros necessários" style="rounded=1;whiteSpace=wrap;html=1;" parent="-JjJm4a-PMxNxb4G7ymI-37" vertex="1">
+                    <mxGeometry x="130" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-JjJm4a-PMxNxb4G7ymI-37" source="-JjJm4a-PMxNxb4G7ymI-42" target="-JjJm4a-PMxNxb4G7ymI-43" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="-JjJm4a-PMxNxb4G7ymI-37" source="-JjJm4a-PMxNxb4G7ymI-42" target="-JjJm4a-PMxNxb4G7ymI-42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-JjJm4a-PMxNxb4G7ymI-45" value="Armazenar em memória os links da primeira página de resposta do google" style="rounded=1;whiteSpace=wrap;html=1;" parent="-JjJm4a-PMxNxb4G7ymI-37" vertex="1">
+                    <mxGeometry x="130" y="215" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
